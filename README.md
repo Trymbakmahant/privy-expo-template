@@ -15,6 +15,10 @@ https://github.com/user-attachments/assets/privy-template-preview.gif
 ## Running locally
 
 ```bash
+# start from this template via Expo CLI
+npx create-expo-app --template https://github.com/Trymbakmahant/privy-expo-template my-privy-app
+
+# or clone and run manually
 npm install
 cp .env.example .env    # fill in EXPO_PUBLIC_PRIVY_APP_ID (+ optional CLIENT_ID)
 npx expo start
